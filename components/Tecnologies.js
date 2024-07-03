@@ -70,8 +70,8 @@ const Tecnologies = () => {
       <div className={styles.category}>
         <h3>Otras tecnologias</h3>
         <div className={styles.icons}>
-          <img src="/img/photoshop.png" alt="Git" />
-          <img src="/img/figma.png" alt="SpringBoot" />
+          <img src="/img/photoshop.png" alt="Photoshopt" />
+          <img src="/img/figma.png" alt="Figma" />
         </div>
       </div>
     </section>
