@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .header, .about, .interests, .contact {
+      padding: 10px;
+    }
+  
+    .header .profileImage {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .header .name {
+      font-size: 1.5rem;
+    }
+  }
+  
+  #backgroundCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+

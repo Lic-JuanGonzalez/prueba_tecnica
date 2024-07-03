@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  color: #98c379;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0; /* Evita que la imagen se reduzca */
+}
+
+.textContainer {
+  flex: 1; /* Para ocupar el espacio restante */
+  max-width: 250px; /* Ancho máximo del contenedor */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px; /* Ajustar el margen horizontal */
+  min-width: 200px; /* Evita que el contenedor se haga demasiado pequeño */
+}
+
+.textContainer h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #fff; /* Letras GonzDev en blanco */
+}

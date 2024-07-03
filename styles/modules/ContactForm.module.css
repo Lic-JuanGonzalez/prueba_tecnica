@@ -1,0 +1,73 @@
+.contact {
+  backdrop-filter: blur(5px);
+  color: #98c379;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #98c379;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #98c379;
+}
+
+.field input,
+.field textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #22222263;
+  color: #ffffff;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: #98c379;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #98c379b9;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.button:hover {
+  background-color: #33333362;
+  color: #98c379;
+}
