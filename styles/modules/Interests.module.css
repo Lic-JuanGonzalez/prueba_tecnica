@@ -8,16 +8,14 @@
   color: #fff;
   padding: 20px;
   border-radius: 10px;
-  width: 100%;
   max-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 
 .interests h2 {
   font-size: 2em;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .interests ul {
@@ -32,7 +30,7 @@
   margin: 10px 0;
   padding: 10px;
   border-radius: 4px;
-  color: #ffffff;
+  color: #fff;
   transition: background-color 0.3s, color 0.3s;
 }
 
