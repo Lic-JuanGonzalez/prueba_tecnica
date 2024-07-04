@@ -6,7 +6,6 @@ import Tecnologies from '../components/Tecnologies';
 test('Renderizar categorias', () => {
     render(<Tecnologies />);
     
-    // Verifica que las categorías estén presentes
     expect(screen.getByText('Front-End')).toBeInTheDocument();
     expect(screen.getByText('Back-End')).toBeInTheDocument();
     expect(screen.getByText('Diseño')).toBeInTheDocument();
@@ -16,7 +15,6 @@ test('Renderizar categorias', () => {
 test('Renderizar icono', () => {
     render(<Tecnologies />);
     
-    // Verifica que los íconos estén presentes y tengan los atributos alt correctos
     expect(screen.getByAltText('HTML5')).toBeInTheDocument();
     expect(screen.getByAltText('CSS3')).toBeInTheDocument();
     expect(screen.getByAltText('JavaScript')).toBeInTheDocument();
