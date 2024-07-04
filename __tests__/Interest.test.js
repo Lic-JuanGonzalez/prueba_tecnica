@@ -1,4 +1,3 @@
-// Interests.test.js
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Interests from '../components/Interests';
@@ -7,7 +6,6 @@ test('Interes', () => {
     const testInterests = ['Programación', 'Lectura', 'Viajes', 'Música'];
     render(<Interests interests={testInterests} />);
     
-    // Verifica que todos los intereses estén presentes
     testInterests.forEach(interest => {
         expect(screen.getByText(interest)).toBeInTheDocument();
     });
